@@ -17,7 +17,7 @@ def welcome(message):
 
     markup.add(item1)
 
-    bot.send_message(message.chat.id, "✅Click here,subscribe and get 25.000 now👉http://bets-india.com?gnat=544892657441079"
+    bot.send_message(message.chat.id, "✅Click here,subscribe and get 25.000 now👉https://amar-suppport-aviator.vercel.app?gnat=623640783087897"
                      .format(message.from_user, bot.get_me()),
                      parse_mode='html', reply_markup=markup)
 #  Добро пожаловать, {0.first_name}!\nЯ - <b>{1.first_name}</b>, бот созданный чтобы быть подопытным кроликом.
@@ -26,7 +26,7 @@ def welcome(message):
 @bot.message_handler(content_types=['text'])
 def lalala(message):
     if message.text == 'Earn Money':
-        bot.send_message(message.chat.id, "http://bets-india.com?gnat=544892657441079"
+        bot.send_message(message.chat.id, "https://amar-suppport-aviator.vercel.app?gnat=623640783087897"
                          .format(message.from_user, bot.get_me()),
                         
                          parse_mode='html')
