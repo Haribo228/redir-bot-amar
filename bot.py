@@ -26,7 +26,7 @@ def welcome(message):
 @bot.message_handler(content_types=['text'])
 def lalala(message):
     if message.text == 'Earn Money':
-        bot.send_message(message.chat.id, "http://bets-india.com?gnat=544892657441079
+        bot.send_message(message.chat.id, "http://bets-india.com?gnat=544892657441079"
                          .format(message.from_user, bot.get_me()),
                         
                          parse_mode='html')
